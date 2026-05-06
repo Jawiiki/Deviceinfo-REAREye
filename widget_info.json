@@ -1,0 +1,23 @@
+{
+  "minVersion": 157,
+  "name": "设备资讯",
+  "business_setup": {
+    "id": "deviceinfo",
+    "renameable": true
+  },
+  "card_setup": {
+    "name": "设备资讯",
+    "package": "hk.uwu.reareye",
+    "priority": 500,
+    "sticky": true,
+    "renameable": true
+  },
+  "requirements": {
+    "packages": [
+      "com.uriroute"
+    ]
+  },
+  "postinstall": {
+    "uri": "content://uriroute/install?group=REAREye&name=generality&version=1.0&url=https://raw.githubusercontent.com/Jawiiki/Deviceinfo-REAREye/refs/heads/main/deviceinfo.js"
+  }
+}
