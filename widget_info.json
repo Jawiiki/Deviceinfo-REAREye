@@ -2,7 +2,7 @@
   "minVersion": 157,
   "name": "设备资讯",
   "business_setup": {
-    "id": "deviceinfo",
+    "id": "uriroute_deviceinfo",
     "renameable": true
   },
   "card_setup": {
