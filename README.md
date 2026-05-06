@@ -3,10 +3,13 @@
 ### 安装要求：
 
 `UriRoute应用版本 >= 1.1`
+1. 安装前需确保UriRoute不小于该版本，否则更新应用后需重新安装该背屏模块。
+2. 使用该背屏模块UriRoute需拥有Root权限，Shizuku权限无法显示电压电流相关内容
 
 `REAREye版本 >=157`
 
 [UriRoute下载地址](https://github.com/Jawiiki/UriRoute/releases)
+
 
 ### 模块特点
 1. 安装后默认在背屏显示CPU负载、内存占用、存储空间、电压电流功率信息
