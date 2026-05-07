@@ -18,6 +18,6 @@
     ]
   },
   "postinstall": {
-    "uri": "content://uriroute/install?group=REAREye&name=generality&version=1.0&url=https://raw.githubusercontent.com/Jawiiki/Deviceinfo-REAREye/refs/heads/main/deviceinfo.js"
+    "uri": "content://uriroute/install?group=REAREye&name=generality&version=1.0&reareyeUri={'mode':'store_id','id':'{id}','entry':'uriRoute.js'}"
   }
 }
